@@ -1,0 +1,28 @@
+$dark-overlay:rgba(73, 67, 67, 0.7);
+$font-color:white;
+
+
+#home-section {
+  
+  background-image: url('https://uppercut-elevator.com/wp-content/uploads/2018/01/happy-social-gathering.jpg');
+  background-repeat: no-repeat;
+  
+  background-attachment: fixed;
+  background-size: cover;
+  min-height: 700px;
+
+  .dark-overlay {
+    background-color: $dark-overlay;
+    height:700px;
+    
+  }
+
+  .home-inner {
+
+    padding-top: 150px;
+  }
+  .font h1,p{
+    color: $font-color;
+  }
+
+}
